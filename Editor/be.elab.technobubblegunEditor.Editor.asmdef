@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.elab.technobubblegunEditor",          
+    "references": ["be.elab.technobubblegun","be.elab.technobuggleggj"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   

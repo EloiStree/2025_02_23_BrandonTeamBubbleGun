@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.elab.technobubblegun",                              
+  "displayName": "Bubble Gun GGJ",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "This package is a bubble gun for XR using the code and assets of the global game jam at Technocité. Credit to the Brandon Team for the 3D assets and Shader.  ",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2025_02_23_BrandonTeamBubbleGun.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 

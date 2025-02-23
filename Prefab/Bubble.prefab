@@ -101,6 +101,8 @@ GameObject:
   - component: {fileID: 5258771613983445716}
   - component: {fileID: 7522790562902610401}
   - component: {fileID: 6438383294189172446}
+  - component: {fileID: 2851833593994505499}
+  - component: {fileID: 9041386967041488992}
   m_Layer: 0
   m_Name: Bubble
   m_TagString: Untagged
@@ -241,6 +243,8 @@ MonoBehaviour:
   m_toAffect: {fileID: 5258771613983445716}
   m_forceType: 5
   m_gravityForce: 0.1
+  m_touchImpact: 5
+  m_touchForceMode: 1
 --- !u!114 &6438383294189172446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,6 +257,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f71859f28b6d28c42b61dbcdc407c5f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2851833593994505499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6326653703898830262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4103938acda8b647a77bedb1d54f871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_rigidbody: {fileID: 5258771613983445716}
+  m_ballCenter: {fileID: 1183779242351421854}
+  m_minForce: 1
+  m_maxForce: 5
+  m_maxDistance: 7
+  m_maxDistanceFullForce: 20
+  m_forceMode: 5
+--- !u!114 &9041386967041488992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6326653703898830262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56f9922b38e10fc42ba21acc024e2c15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_oneShot: 1
 --- !u!1 &7592405287557400827
 GameObject:
   m_ObjectHideFlags: 0
